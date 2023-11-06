@@ -1,24 +1,40 @@
 body{
     margin-left: 40%;
     margin-top: 10%;
+    align-items: center;
+    
 }
 
 input{ 
-    padding-left: 10px;
-    padding-top: 23px; 
-    font-size: 20px; 
+    width: 10%;
+    padding-left: 5px;
+    padding-top: 13px; 
+    font-size: 25px; 
     font-weight: bold; 
     border: none; 
     border-radius: 5px; 
     border: 2px solid black; 
+    background-color: rgb(126, 126, 126);
+    padding-bottom: 10px;
 } 
 button { 
-    width: 10%; 
+     width: 10%;
     padding: 14px 30px; 
-    background-color: green; 
+    background-color:#181818; 
     color: white; 
     font-size: 24px; 
     font-weight: bold; 
     border: none; 
     border-radius: 5px; 
 } 
+.button1 {
+    margin-top: 5px;
+}
+#screen{
+    width: 29.5%;
+
+}
+button.clear{
+    background-color:  #FFBA75;
+
+}
