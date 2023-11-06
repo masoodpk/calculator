@@ -6,3 +6,6 @@ let screen = document.getElementById("screen");
  function answer(){
     screen.value = eval(screen.value);
  }
+ function Clear(){
+    screen.value ="";
+ }
