@@ -1,11 +1,23 @@
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+
+
 body{
-    margin-left: 40%;
-    margin-top: 10%;
-    align-items: center;
+    /* margin-left: 40%;
+    margin-top: 10%; */
+    /* align-items: center; */
+    overflow: hidden;
    background-color: #FFFF;
 }
 .conatiner{
-    align-items: center; padding-top:50px; width: 300px; padding-left: 50px; padding-bottom: 50px;
+    align-items: center; padding-top:50px; width: 360px; padding-left: 50px; padding-bottom: 50px;
     border-radius: 20px; box-shadow:rgba(0,0,0,0.5) 5px 5px 8px; background-color: #d0d0d0;
 }
 input{ 
@@ -33,6 +45,7 @@ button {
     box-shadow:rgba(0, 0, 0,0.5) 5px 5px 10px;
     margin: 1px;
     transition: 0.5s ease;
+
    
 } 
 
